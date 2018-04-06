@@ -1,320 +1,219 @@
-
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Ashwin K S</title>
-    <meta name="description" content="Ashwin K S, Web Developer from Bangalore."/>
-    <link rel="shortcut icon" href="https://carbonmade-media.accelerator.net/35558575;32x32/lossless.webp" />
-    <meta property="og:description" content="Ashwin K S, Web Developer from Bangalore."/>
-  <link rel="icon" href="https://carbonmade-media.accelerator.net/35558575;32x32/lossless.webp" />
-    <link rel="stylesheet" id="styles" href="https://dynamic.cmcdn.net/static/6/1.0.4/styles/all.css?accentColor=%235eca89&colorScheme=light&fontScheme=sans&textAlignment=left" data-accent-color="#5eca89" data-color-scheme="light" data-font-scheme="sans" data-text-alignment="left" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Vollkorn:400italic,400,700|Karla:400,400italic,700,700italic" />
-    <script>
-    window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-    ga('create', 'UA-41732793-2', 'auto')
-    ga('send', 'pageview')
-    ga('create', 'UA-99636-19', 'auto', 'carbonmade')
-    ga('carbonmade.send', 'pageview')
-    </script>
-    <script async src="https://www.google-analytics.com/analytics.js"></script>
+<title>Ashwin K S Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body class="w3-black">
 
-
-  </head>
-
-  <body class="homePage   ">
-    <main>
-
-
-  <div class="mainInfo  ">
-    <div class="inner">
-
-        <a href="/" class="userPicWrapper">
-        	<div class="user">
-        		
-        	<img src="profile.jpg" style="width:300px; height:300px; border-radius:50%">
-        	</div>
-        </a>
-
-
-
-      <div class="userInfo">
-        <h1>Ashwin K S</h1>
-        <h3 class="small">Web Developer from Bangalore.</h3>
-        <h5>Learning Python and Django under the guidance of Speckbit Exploratories.</h5>
-<br>
-
-
-          <div class="links">
-            <h3>
-               <a href="https://www.linkedin.com/in/ashwin-k-s-88131b161/" class="linkedIn" target="_blank" rel="nofollow">LinkedIn</a>, <a href="https://www.instagram.com/ashwiniyengar/" class="instagram" target="_blank" rel="nofollow">Instagram</a>, <a href="https://github.com/AshwinKSreenivas" class="gitHub" target="_blank" rel="nofollow">GitHub</a>, <a href="https://www.facebook.com/ashwin.iyengar.12" class="facebook" target="_blank" rel="nofollow">Facebook</a>
-             </h3>
-          </div>
-
-
-
-          <h3 class="small"><a class="resume" href="C:\Users\ashwi\Downloads\Resume_AshwinKS (1).pdf">Download Resume</a></h3>
-
-
-        <nav>
-  <ul class="siteLinks">
-
-
-
-
-    <!--  <li><a id="aboutLink" href="/about">About</a></li>
-
-
-
-      <li><a id="contactLink" href="/contact">Contact</a></li>
--->
-
-  </ul>
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="mainprofile.jpg" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT ME</p>
+  </a>
+  <a href="#education" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>EDUCATION</p>
+  </a>
+  <a href="#projects" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>PROJECTS</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
 </nav>
-      </div>
 
-
-      <div class="clear"></div>
-    </div>
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
   </div>
-
-
-  <div class="content">
-
-    <a class="hide" href="/">
-      <svg width="55" height="100" viewBox="0 0 55 100" baseProfile="full">
-      	<path d="M6 5 L45 50 L6 95" stroke-linecap="round" fill="none"/>
-      </svg>
-    </a>
-
-    <section class="contact">
-      <div class="innerWrapper">
-        <div class="inner">
-          <div class="row">
-
-              <div class="form contactForm full">
-  <form id="contactForm" action="/messages" method="POST" data-ajax="true" on-insert="form:setup">
-
-  <div class="error"><p class="message"></p></div>
-
-    <ul class="guts">
-      <li>
-        <div class="field">
-          <input type="text" name="name" placeholder="Name" required/>
-          <span class="message"></span>
-        </div>
-        <div class="field">
-          <input type="email" name="email" placeholder="Email" required/>
-          <span class="message">This is not a valid email</span>
-        </div>
-      </li>
-      <li class="field">
-        <textarea name="body" class="input" placeholder="Message" required></textarea>
-        <i class="message"></i>
-      </li>
-
-      <li>
-        <input type="hidden" name="authenticityToken" value="4Bn+FKkNwZjNjXHNu+8LK2fo5ofLkWBp+S/KTEVLeYc="/>
-
-        <button type="submit" class="button">Send Message</button>
-      </li>
-    </ul>
-
-    <div class="confirmedGuts"> <span class="icon success"></span>
-      <h3>Your Message has been sent.</h3>
-    </div>
-  </form>
 </div>
 
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
 
+    <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Ashwin K S.</h1>
+    <p>Student Developer And Dedicated Coder.</p>
 
-
-              <div class="contactSubInfo ">
-
-
-
-                    <p><span class="small">Email</span>
-                      <a href="mailto:hi@saraclayton.co">hi@saraclayton.co</a>
-                    </p>
-
-
-
-
-
-
-                </div>
-              </div>
-
-          </div>
-        </div>
-    </section>
-
-    <section class="about">
-      <div class="innerWrapper">
-        <div class="inner">
-
-            <div class="row bio">
-              <p>I'm Sara, a UX designer on the Windows Internet of Things (IoT) team at Microsoft. As part of my role, I drive the majority of user experience-related initiatives and projects on the team as well as create and refine many of the experiences for our developers tools and site. Prior to this team, I was a UX designer on the Microsoft.com team, and, before making my move into design, I spent three years doing developer and gaming marketing.</p>
-
-<p>Outside of work, I'm usually running, working on new design skills or showing my devotion (and bordeline obsession) for Japanese food on my @shoyustories Instagram account.</p>
-            </div>
-
-
-
-
-
-          <div class="row">
-            <div class="col-1">
-
-
-
-
-
-
-
-            </div>
-
-            <div class="col-2">
-
-
-
-
-
-
-
-
-
-
-
-            </div>
-          </div>
-
-        </div>
+    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+      <div>
+          <h2><strong><span class="w3-hide-small">For things to get better,</span> I need to get better.</strong</h2>
       </div>
-    </section>
-
-    <div id="projects">
-
-        <div class="project">
+    </div>
 
 
-          <a class="item " href="/projects/6603573" data-url="">
-            <div class="innerWrapper">
-              <div class="inner">
-                <div class="info">
-                  <h2>Airline Reservation</h2>
-                  <p>Searching, booking and cancelling seats in flights.</p>
-                  <!--<span class="moreLink">More</span>-->
-                </div>
+    <img src="mac.jpg" alt="boy" class="w3-image" width="700" height="800">
 
-                  <ul class="dots"><li></li><li></li><li></li></ul>
-                  <div class="thumb " style="background-image: url("C:\Users\ashwi\Desktop\Portfolio\Screenshot (9).png");">
+  </header>
 
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">Ashwin K S</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>I'm a student persuing Computer Science Engineering at Dayananda Sagar Academy of Technology And Management. I'm 20 year old and am interested in Web Development and Machine Learning. I am interested
+       in computers since a small piece of code can change the feelings and emotions of a person once you see them working.
+    </p>
+    <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+    <p class="w3-wide">HTML</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:95%"></div>
+    </div>
+    <p class="w3-wide">CSS</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+    </div>
+    <p class="w3-wide">Bootstrap</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:70%"></div>
+    </div>
+    <p class="w3-wide">PHP</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:70%"></div>
+    </div>
+    <p class="w3-wide">Python</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:60%"></div>
+    </div>
+    <p class="w3-wide">MySQL</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:60%"></div>
+    </div>
+    <p class="w3-wide">C</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:70%"></div>
+    </div>
+    <p class="w3-wide">Java</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:50%"></div>
+    </div>
+    <br>
 
-        <div class="project">
+    <button class="w3-button w3-light-grey w3-padding-large w3-section">
+      <i class="fa fa-download"></i><a href="AshwinKS.docx"> Download Resume </a>
+    </button><br><br>
+  </div>
+
+    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+      <div>
+          <h2><strong><span class="w3-hide-small">When you were born, you cried,
+          </span> and the world rejoiced. Live your life in such a manner that when you die, the world cries and you rejoice.</strong</h2>
+      </div>
+    </div>
+
+    <!-- Grid for pricing tables -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64">
+    <h2 class="w3-padding-16 w3-text-light-grey" id="education"><center>Education</center></h2>
+    <div class="w3-row-padding" style="margin:0 -16px; display: flex; justify-content: center;">
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-large w3-padding-32">Dayananda Sagar Academy of Technology and Management</li>
+          <li class="w3-padding-16">Bachelor of Engineering. (2015 - Present) CGPA: 7.3</li>
+          <li class="w3-padding-16">
+          <li class="w3-dark-grey w3-large w3-padding-32">Sri Ramakrishna Vidyashala</li>
+          <li class="w3-padding-16">Pre University. (PU Board) Percentage: 94.5%</li>
+          <li class="w3-padding-16">
+          <li class="w3-dark-grey w3-large w3-padding-32">Sri Ramakrishna Vidyashala</li>
+          <li class="w3-padding-16">Secondary School Leaving Certificate. (State Board) Percentage: 93.7%</li>
+          <li class="w3-padding-16">
+        </ul>
+      </div>
+    </div>
+  </div>
 
 
-          <a class="item " href="/projects/6603626" data-url="">
-            <div class="innerWrapper">
-              <div class="inner">
-                <div class="info">
-                  <h2>Manager Meeting Schedule</h2>
-                  <p>Checking and scheduling a meeting with the Manager.</p>
-                  <!--<span class="moreLink">More</span>-->
-                </div>
+  <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+    <div>
+      <h2><strong><span class="w3-hide-small">If you want to be successful,
+      </span>Find someone who has achieved the results you want and copy what they do and you'll achieve the same results.</strong</h2>
+    </div>
+  </div>
+    <!-- Testimonials -->
+    <div class="w3-content w3-justify w3-text-grey w3-padding-64">
+    <h3 class="w3-padding-24 w3-text-light-grey" id="projects">Projects</h3>
+    <h4><span class="w3-large w3-margin-right"><a href="https://github.com/iamashwinks/to-do-list" target="_blank"> To-do List.</a></span></h4>
+    <img src="todo1.jpg" class="w3-left w3-circle w3-margin-right" style="width:120px; height:120px; border-radius:50%">
+    <p>A Manager Console Application that helps to schedule Your to-do lists.</p>
+    <p>Built using Classes in Python.</p><br><br><br>
 
-                  <ul class="dots"><li></li><li></li><li></li></ul>
-                  <div class="thumb " style="background-image:url("C:\Users\ashwi\Desktop\Portfolio\Screenshot (40).png) 2x");">
+    <h4><span class="w3-large w3-margin-right"><a href="https://github.com/iamashwinks/Meeting-Manager" target="_blank">Meeting Manager</a></span></h4>
+    <img src="manage.jpg" class="w3-left w3-circle w3-margin-right" style="width:120px; height:120px; border-radius:50%">
+    <p>A Console Application that helps to schedule Your meetings with Manager.</p>
+    <p>Built using Classes in Python.</p><br><br><br>
 
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
+    <h4><span class="w3-large w3-margin-right"><a href="https://github.com/iamashwinks/Matrix-Game" target="_blank">Matrix Game</a></span></h4>
+    <img src="game.jpg" class="w3-left w3-circle w3-margin-right" style="width:120px; height:120px; border-radius:50%">
+    <p>A Console Game that declares whether a player is a winner depending on whether a number entered by him/her is present in a randomly generated two dimensional matrix.</p>
+    <p>Built using Classes in Python.</p><br><br><br>
 
-        <!--<div class="project">
+    <h4><span class="w3-large w3-margin-right">Airline Reservation System</span></h4>
+    <img src="plane1.jpg" class="w3-left w3-circle w3-margin-right" style="width:120px; height:120px; border-radius:50%">
+    <p>A Full Stack Application that helps to user to book fligths oon particular date.</p>
+    <p>Built HTML, CSS & PHP.</p><br><br><br>
+  <!-- End About Section -->
+  </div>
 
-
-          <a class="item " href="/projects/6603583" data-url="">
-            <div class="innerWrapper">
-              <div class="inner">
-                <div class="info">
-                  <h2>Copycat</h2>
-                  <p>Designing the end-to-end vision for Copycat, a machine learning-based screenshot app.</p>
-                  <span class="moreLink">More</span>
-                </div>
-
-                  <ul class="dots"><li></li><li></li><li></li></ul>
-                  <div class="thumb " style="background-image:url(&#39;https://carbonmade-media.accelerator.net/35450956;567x360-t/lossless.webp&#39;);background-image: -webkit-image-set(url(&#39;https://carbonmade-media.accelerator.net/35450956;567x360-t/lossless.webp&#39;) 1x, url(&#39;https://carbonmade-media.accelerator.net/35450956;1134x720-t/lossless.webp&#39;) 2x);">
-
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-
-        <div class="project">
-
-
-          <a class="item " href="/projects/6785752" data-url="">
-            <div class="innerWrapper">
-              <div class="inner">
-                <div class="info">
-                  <h2>Molecular Theranostics Website</h2>
-                  <p>Redesigning Molecular Thernostics&#39; website.</p>
-                  <span class="moreLink">More</span>
-                </div>
-
-                  <ul class="dots"><li></li><li></li><li></li></ul>
-                  <div class="thumb " style="background-image:url(&#39;https://carbonmade-media.accelerator.net/36635355;567x360-t.webp&#39;);background-image: -webkit-image-set(url(&#39;https://carbonmade-media.accelerator.net/36635355;567x360-t.webp&#39;) 1x, url(&#39;https://carbonmade-media.accelerator.net/36635355;1134x720-t.webp&#39;) 2x);">
-
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>-->
-
+  <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+    <div>
+        <h2><strong><span class="w3-hide-small">When you learn a little, you feel you know a lot.
+        </span>But when you learn a lot, you realize you know very little.</strong</h2>
     </div>
   </div>
 
 
-<footer>
-  <div class="inner">
-    <div class="contentWrapper">
-      <carbon-branding>
-<!--<a href="https://carbonmade.com/?campaign=footer-branding" target="_blank">
-<span>Made with</span>
-<carbon-glyph>&#xe609;</carbon-glyph>
-<span>Carbonmade</span>-->
-</a>
-</carbon-branding>
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
 
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Bengaluru, India</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +91 7022342277 / 8618907872</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: ashwin.k.sri@mail.com</p>
+    </div><br>
+    <h5>Lets get in touch. Send me a message.</h5>
 
-      <div class="footerBlurb">
-        <p>© Ashwin K S 2018</p>
-      </div>
-    </div>
+  <!-- End Contact Section -->
   </div>
-</footer>
 
-    </main>
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <a href="https://www.facebook.com/ashwin.iyengar.12" target="_blank"> <i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    <a href="https://www.instagram.com/iamashwinks/" target="_blank"> <i class="fa fa-instagram w3-hover-opacity"></i></a>
+    <a href="https://github.com/iamashwinks" target="_blank"> <i class="fa fa-github fa-fw w3-hover-opacity"></i></a>
+    <a href="https://www.linkedin.com/in/ashwin-k-s-88131b161/" target="_blank"> <i class="fa fa-linkedin w3-hover-opacity"></i></a>
 
-    <script src="https://static.cmcdn.net/libs/player/3.2.0/dash.js"></script>
+  <!-- End footer -->
+  </footer>
 
-    <script src="https://static.cmcdn.net/libs/basejs/2.0.0/basejs.js" integrity="sha256-KFWWcoaguGpL7nNf/+1Y11DpDCQvmpwS6T3hF4B6lH4=" crossorigin="anonymous"></script>
-    <script src="https://static.cmcdn.net/libs/corejs/1.6.0/corejs.js" integrity="sha256-Akr9I+WeARW5tmlFYUZriCbBsXgt51dST59s0nqrYKY=" crossorigin="anonymous"></script>
-    <script src="https://static.cmcdn.net/libs/router/1.2.1/router.js" integrity="sha256-CZntN7iA73Xhk5KOfLaj5HRP1Tx3RCo07jVeHG0quiY=" crossorigin="anonymous"></script>
-    <script src="https://static.cmcdn.net/libs/zoomable/1.1.11/zoomable.js" integrity="sha256-iNppYf3+fZDVHoF1nLEzC2OudcDn7dW4NsNXV9uA6co=" crossorigin="anonymous"></script>
-    <script src="https://static.cmcdn.net/libs/forms/2.1.14/forms.js" integrity="sha256-QbfvfqVDRXK0xQZ8c7ya9zJEP9lySCBDcvuQ2HyJrVc=" crossorigin="anonymous"></script>
-    <script src="https://static.cmcdn.net/libs/lazyjs/1.2.3/lazyjs.js" integrity="sha256-MnrknhKLALxHoO1cqo2Bcz/YwXrnE8KS5jKeTn+VXBI=" crossorigin="anonymous"></script>
-    <script src="https://static.cmcdn.net/libs/player/3.2.4/player.js" integrity="sha256-OSmeZnTGwVqAGPoiSjquF7atrOrgke7u+MkdgqJ5PG8=" crossorigin="anonymous"></script>
-    <script src="https://static.cmcdn.net/libs/animation/1.0.2/animation.js" integrity="sha256-2WunAH12ucR3dwwLpTZ/fQ4P61hOK83vYwe5q96d42E=" crossorigin="anonymous"></script>
-    <script src="https://static.cmcdn.net/6/1.0.4/scripts/app.js" crossorigin="anonymous"></script>
+<!-- END PAGE CONTENT -->
+</div>
 
-
-  </body>
+</body>
 </html>
