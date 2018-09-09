@@ -10,7 +10,7 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 		<style>
 			body {
-				background-color: #26C281;
+				background-color: #38DFB4;
 			}
 			
 			.navbar.navbar-expand-lg.navbar-light li a {
@@ -30,15 +30,16 @@
 				align-items: center;
 				flex-direction: column;
 			}
-			
+			.banner a {
+				text-decoration: none;
+				color: #2BB504;
+			}
 			.line {
 				width: 100px;
 				height: 3px;
 				background: #3c489c;
 				border-radius: 50px;
-			}
-			a {
-				color: #fff;
+				background-color: #2C6569;
 			}
 			/* entire container, keeps perspective */
 			.flip-container {
@@ -68,12 +69,16 @@
 			}
 			/* front pane, placed above back */
 			.front {
-														z-index: 2;		/* for firefox 31 */
+				z-index: 2;		/* for firefox 31 */
 				transform: rotateY(0deg);
 			}
 			/* back, initially hidden pane */
 			.back {
 				transform: rotateY(180deg);
+			}
+			.back a {
+				text-decoration: none;
+				color: #2BB504;
 			}
 		</style>
 	</head>
@@ -114,7 +119,7 @@
 										</div>
 										<div class="back">
 											<!-- back content -->
-											<h5 style="font-weight: 600;"><a href="https://studyhours.herokuapp.com/"  target="_blank"> Daily Study Hours </a></h5>
+											<h5 style="font-weight: 600;"><a href="https://studyhours.herokuapp.com/"  target="_blank"> Daily Study Hours App</a></h5>
 											<p>(Python, Django, Heroku, SQLite)</p>
 											<p style="margin-top: -10px;">A web application which help students determine how many hours to study per day to excel in their exams.</p>
 										</div>
@@ -130,7 +135,7 @@
 										</div>
 										<div class="back">
 											<!-- back content -->
-											<h5 style="font-weight: 600;"><a href="https://quora-app.herokuapp.com/home/" target="_blank">Quora Clone</a></h5>
+											<h5 style="font-weight: 600;"><a href="https://quora-app.herokuapp.com/home/" target="_blank">Quora Clone App</a></h5>
 											<p>(Python, Django, Heroku, SQLite)</p>
 											<p style="margin-top: -10px;">A web application platform to ask questions and connect with people who contribute insights and quality answers.</p>
 										</div>
@@ -146,7 +151,7 @@
 										</div>
 										<div class="back">
 											<!-- back content -->
-											<h5 style="font-weight: 600;"><a href="https://github.com/iamashwinks/NewsPedia" target="_blank"> NewsPedia </a></h5>
+											<h5 style="font-weight: 600;"><a href="https://github.com/iamashwinks/NewsPedia" target="_blank"> NewsPedia App</a></h5>
 											<p>(Python, Scrapy, Webbrowser)</p>
 											<p style="margin-top: -10px;">A project to scrape data (News Headlines) which helps people to prepare for different examinations by getting to know about the current affairs.</p>
 										</div>
@@ -180,7 +185,7 @@
 										</div>
 										<div class="back">
 											<!-- back content -->
-											<h5 style="font-weight: 600;"><a href="https://github.com/iamashwinks/Renamer-App" target="_blank">Renamer</a></h5>
+											<h5 style="font-weight: 600;"><a href="https://github.com/iamashwinks/Renamer-App" target="_blank">Renamer App</a></h5>
 											<p>(Python, Tkinter, Os)</p>
 											<p style="margin-top: -10px;">A desktop application for renaming images in a folder and organizing it in a proper format.</p>
 										</div>
@@ -196,7 +201,7 @@
 										</div>
 										<div class="back">
 											<!-- back content -->
-											<h5 style="font-weight: 600;"><a href="https://github.com/iamashwinks/Airline-Reservation-System-" target="_blank"> Airline Reservation System </a></h5>
+											<h5 style="font-weight: 600;"><a href="https://github.com/iamashwinks/Airline-Reservation-System-" target="_blank"> Airline Reservation System App</a></h5>
 											<p>(PHP, LAMP, Heroku, MySQL)</p>
 											<p style="margin-top: -10px;">A web application which is used to handle and manage different airlines which lets users book the flights easily.</p>
 										</div>
