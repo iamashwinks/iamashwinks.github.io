@@ -11,10 +11,7 @@
 		<title>Ashwin K S| Web Developer</title>
 		<style>
 			body {
-				background: #00b09b;  /* fallback for old browsers */
-				background: -webkit-linear-gradient(left, #96c93d, #00b09b);
-				background: -o-linear-gradient(left, #96c93d, #00b09b);
-				background: linear-gradient(to right, #96c93d, #00b09b);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+				background-image: url("index.jpg");
 			}
 			
 			.navbar.navbar-expand-lg.navbar-light li a {
@@ -22,11 +19,14 @@
 				padding: 14px 30px;
 				font-size: 17px;
 				font-weight: 600;
-				color: white;
+				color: #aaa;
 			}
 			.navbar.navbar-expand-lg.navbar-light li a:hover {
 				color: white;
 				border-bottom: 3px solid ;
+			}
+			.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+				color: white;
 			}
 			.banner {
 				height: 80vh;
@@ -39,14 +39,14 @@
 			.banner .line {
 				width: 100px;
 				height: 3px;
-				background: #3c489c;
+				background: #aaa;
 				margin: .5em auto;
 				border-radius: 50px;
 				margin-bottom: 30px;
-				background-color: #2C6569;
+				background-color: #aaa;
 			}
 			.banner h1 {
-				font-size: 7em;
+				font-size: 700%;
 				color: white;
 				text-shadow: 8px 8px 10px #000000;
 			}
@@ -62,7 +62,6 @@
 					<li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
 					<li class="nav-item"><a class="nav-link" href="work.html">Work</a></li>
 					<li class="nav-item"><a class="nav-link" href="about.html">About Me</a></li>
-					<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
 				</ul>
 			</div>
 		</nav>
@@ -70,21 +69,22 @@
 			<img src="mainprofile.jpg" alt="Ashwin K S" width="20%" style="border-radius: 50%;">
 			<h1>Ashwin K S</h1>
 			<div class="line"></div>
-			<h2 class="type"></h2>
+			<h2 class="type" style="color: #fff;"></h2>
 		</div>
-		<script type="text/javascript">
-				var typed = new Typed(".type", {
-			strings: ["Hello World!",
-			"I am a Developer",
-			"I am a Coder",
-			"I am a Learner",
-			"I am a Reader"],
-			typeSpeed: 50,
-			backSpeed: 50,
-			loop: true,
-			showCursor: false
-			});
-		</script>
+		<div>
+			<script type="text/javascript">
+					var typed = new Typed(".type", {
+				strings: ["Hello World!",
+				"I am a Developer",
+				"I am a Coder",
+				"I am a Learner",
+				"I am a Reader"],
+				typeSpeed: 50,
+				backSpeed: 50,
+				loop: true,
+				showCursor: false
+				});
+			</script>
+		</div>
 	</body>
-</body>
 </html>

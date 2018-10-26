@@ -10,7 +10,7 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 		<style>
 			body {
-				background-color: #38DFB4;
+				background-image: url("stars.jpg");
 			}
 			
 			.navbar.navbar-expand-lg.navbar-light li a {
@@ -18,28 +18,32 @@
 				padding: 14px 30px;
 				font-size: 17px;
 				font-weight: 600;
-				color: white;
+				color: #aaa;
 			}
 			.navbar.navbar-expand-lg.navbar-light li a:hover {
 				color: white;
 				border-bottom: 3px solid ;
+			}
+			.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+				color: white;
 			}
 			.banner {
 				display: flex;
 				justify-content: center;
 				align-items: center;
 				flex-direction: column;
+				color: white;
 			}
 			.banner a {
 				text-decoration: none;
-				color: #2C5069;
+				color: white;
 			}
 			.line {
 				width: 100px;
 				height: 3px;
 				background: #3c489c;
 				border-radius: 50px;
-				background-color: #2C6569;
+				background-color: #aaa;
 			}
 			/* entire container, keeps perspective */
 			.flip-container {
@@ -69,16 +73,17 @@
 			}
 			/* front pane, placed above back */
 			.front {
-				z-index: 2;		/* for firefox 31 */
+						z-index: 2;		/* for firefox 31 */
 				transform: rotateY(0deg);
 			}
 			/* back, initially hidden pane */
 			.back {
 				transform: rotateY(180deg);
+				color: #81ecec;
 			}
 			.back a {
 				text-decoration: none;
-				color: #2C5069;
+				color: white;
 			}
 		</style>
 	</head>
@@ -92,21 +97,22 @@
 					<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
 					<li class="nav-item"><a class="nav-link active" href="work.html">Work</a></li>
 					<li class="nav-item"><a class="nav-link" href="about.html">About Me</a></li>
-					<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
 				</ul>
 			</div>
 		</nav>
 		<div class="banner">
 			<h1>Experience</h1>
 			<div class="line"></div>
-			<h3 style="margin-top: 30px;">
-			Developer Intern - <a href="https://www.speckbit.com" target="_blank">Speckbit Exploratories</a> - (July 2018 - Present)
+			<h3 style="margin-top: 30px; color: #81ecec; display: flex; justify-content: center; align-items: center; flex-direction: column;">
+			<p>Developer Intern</p>
+			<p><a href="https://www.speckbit.com" target="_blank">Speckbit Exploratories</a></p>
+			<p>July 2018 - August 2018</p>
 			</h3>
 		</div><br>
 		<div class="container">
 			<div class="row">
 				<div class="col">
-					<center><h1>Projects</h1>
+					<center><h1  style="color: white;">Projects</h1>
 					<div class="line"></div></center>
 					<div style="margin-bottom: 100px;">
 						<div class="row">
@@ -201,7 +207,7 @@
 										</div>
 										<div class="back">
 											<!-- back content -->
-											<h5 style="font-weight: 600;"><a href="https://github.com/iamashwinks/Airline-Reservation-System-" target="_blank"> Airline Reservation System App</a></h5>
+											<h5 style="font-weight: 600;"><a href="https://github.com/iamashwinks/Airline-Reservation-System-" target="_blank"> Airline Reservation System Web App</a></h5>
 											<p>(PHP, MySQL, LAMP, HTML)</p>
 											<p style="margin-top: -10px;">A web application which is used to handle and manage different airlines which lets users book the flights easily.</p>
 										</div>
@@ -220,7 +226,7 @@
 										</div>
 										<div class="back">
 											<!-- back content -->
-											<h5 style="font-weight: 600;"><a href="https://github.com/iamashwinks/Airbnb-Clone" target="_blank"> Airbnb Clone </a></h5>
+											<h5 style="font-weight: 600;"><a href="https://github.com/iamashwinks/Airbnb-Clone" target="_blank"> Airbnb Clone Website </a></h5>
 											<p>(HTML, CSS, Bootstrap 4)</p>
 											<p style="margin-top: -10px;">A frontend website which is the exact replica of Airbnb website.</p>
 										</div>

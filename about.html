@@ -5,12 +5,14 @@
 		<title>Ashwin K S| Web Developer</title>
 		<meta name="viewport" content="width=device-width,initial-scale=1">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v4.7.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 		<style>
 			body {
-				background-color: #37C6CF;
+				background-image: url("stars.jpg");
 			}
 			
 			.navbar.navbar-expand-lg.navbar-light li a {
@@ -18,28 +20,28 @@
 				padding: 14px 30px;
 				font-size: 17px;
 				font-weight: 600;
-				color: white;
+				color: #aaa;
 			}
 			.navbar.navbar-expand-lg.navbar-light li a:hover {
 				color: white;
 				border-bottom: 3px solid ;
+			}
+			.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+				color: white;
 			}
 			.banner {
 				display: flex;
 				justify-content: center;
 				align-items: center;
 				flex-direction: column;
+				color: white;
 			}
-			
 			.line {
 				width: 100px;
 				height: 3px;
 				background: #3c489c;
 				border-radius: 50px;
-				background-color: #2C6569;
-			}
-			a {
-				color: #fff;
+				background-color: #aaa;
 			}
 			.container p {
 				margin-top: -15px;
@@ -56,7 +58,6 @@
 					<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
 					<li class="nav-item"><a class="nav-link" href="work.html">Work</a></li>
 					<li class="nav-item"><a class="nav-link active" href="about.html">About Me</a></li>
-					<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
 				</ul>
 			</div>
 		</nav>
@@ -67,7 +68,7 @@
 				<div class="row">
 					<div class="col-md-1"></div>
 					<div class="col" style="margin-top:10px; margin-right: -10px;"><img src="mainprofile.jpg" alt="Ashwin K S" width="60%"></div>
-					<div class="col" style="margin-left: -150px; margin-top: 20px;">
+					<div class="col" style="margin-left: -150px; margin-top: 20px; color: #81ecec;">
 						<label style="font-family: serif; font-size: 20px;">Hi! I'm Ashwin K S, a Full Stack Developer based in Bangalore, India. I've learned how to program through various resources, online as well as offline(Certifications).</label>
 						<label style="font-family: serif; font-size: 20px;">I specialize in developing user interfaces with the Front End technologies of HTML, CSS, and Bootstrap, and use Django and Python along with a Database such as SQL as the Back End technolgies. Many of my web applications are built with Python and Django. Recently, I've expanded my interests to Machine Learning.</label>
 					</div>
@@ -76,14 +77,23 @@
 			</div>
 			<h1>Skills</h1>
 			<div class="line"></div>
-			<div class="container" style="margin-top: 35px; display: flex; justify-content: center; align-items: center; flex-direction: column;">
-				<p>Python</p>
-				<p>Django</p>
-				<p>C</p>
-				<p>HTML5</p>
-				<p>CSS3</p>
-				<p>Bootstrap</p>
-				<p>Git</p>
+			<div class="container" style="margin-top: 35px; color: #81ecec; font-size: 120%">
+				<div class="row">
+					<div class="col-md-4"></div>
+					<div class="col-md-3">
+						<p>Python</p>
+						<p>Machine Learning</p>
+						<p>CSS3</p>
+						<p>Git</p>
+					</div>
+					<div class="col-md">
+						<p>Django</p>
+						<p>HTML5</p>
+						<p>Bootstrap</p>
+						<p>C</p>
+					</div>
+					<div class="col-md"></div>
+				</div>
 			</div>
 			<h1>Blogs</h1>
 			<div class="line"></div>
@@ -95,16 +105,16 @@
 							<div class="card-body">
 								<h5 class="card-title">What I learnt from just 1k followers on Instagram?</h5>
 								<p class="card-text" style="white-space: nowrap; overflow: hidden;
-								text-overflow: ellipsis; margin-top: 10px;">Instagram, as all of you know it as a social media app which is nowadays turning into the most viewed and time spent app next to Facebook,...</p>
+								text-overflow: ellipsis; margin-top: 10px; color: #81ecec;">Instagram, as all of you know it as a social media app which is nowadays turning into the most viewed and time spent app next to Facebook,...</p>
 								
 								<!-- Button trigger modal -->
-								<button type="button" class="btn" data-toggle="modal" data-target="#exampleModal1">
+								<button type="button" class="btn" data-toggle="modal" data-target="#exampleModal1" style="background-color: #81ecec;">
 								Read More
 								</button>
 								<!-- Modal -->
 								<div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 									<div class="modal-dialog" role="document">
-										<div class="modal-content">
+										<div class="modal-content" style=" background-color: #81ecec;">
 											<div class="modal-header">
 												<h4 class="modal-title" id="exampleModalLabel" style="color: black;">What I learnt from just 1k followers on Instagram?</h4><br>
 												<a href="https://medium.com/@iamashwinks/what-i-learnt-from-just-1k-followers-on-instagram-1ab5f827738f" target="_blank"><button type="button" class="btn btn-primary" style="margin-top: 20px;">Read on Medium</button></a>
@@ -112,7 +122,7 @@
 												<span aria-hidden="true">&times;</span>
 												</button>
 											</div>
-											<div class="modal-body" style="margin-top: 10px; color: black; background-color: #eee;">
+											<div class="modal-body" style="margin-top: 10px; color: black;">
 												<p>Instagram, as all of you know it as a social media app which is nowadays turning into the most viewed and time spent app next to Facebook, is not only a place for hanging out, posting your crazy pictures, and spending all your free time on it, watching unwanted posts and videos and liking it. It is also one among the platforms which is very useful for business and entrepreneurship and I was one among million others who wanted start a business out of it.</p>
 												<p>But I earned only 1k followers which is not at all a big page for those of you who watch and follow posts which has 10 k-50 million followers. But I am proud that earning just 1k followers was not at all easy. If you find that I’m talking something rubbish, I challenge you to go build a new Instagram account and get at least 5k followers in a month.</p>
 												<p>Here are the keys that I learnt from earning those followers on Instagram:</p>
@@ -144,16 +154,16 @@
 							<div class="card-body">
 								<h5 class="card-title">The reason why you hate your job and how to fix it?</h5>
 								<p class="card-text" style="white-space: nowrap; overflow: hidden;
-								text-overflow: ellipsis; margin-top: 10px;">I had this curiosity back in my mind for a long time. The curiosity about why people hate their jobs, why people say ‘Office life sucks’ and why people wait for Friday evenings and live for weekends...</p>
+								text-overflow: ellipsis; margin-top: 10px; color: #81ecec;">I had this curiosity back in my mind for a long time. The curiosity about why people hate their jobs, why people say ‘Office life sucks’ and why people wait for Friday evenings and live for weekends...</p>
 								
 								<!-- Button trigger modal -->
-								<button type="button" class="btn" data-toggle="modal" data-target="#exampleModal2">
+								<button type="button" class="btn" data-toggle="modal" data-target="#exampleModal2" style=" background-color: #81ecec;">
 								Read More
 								</button>
 								<!-- Modal -->
 								<div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 									<div class="modal-dialog" role="document">
-										<div class="modal-content">
+										<div class="modal-content" style=" background-color: #81ecec;">
 											<div class="modal-header">
 												<h4 class="modal-title" id="exampleModalLabel" style="color: black;">The real reason why you hate your job and how to fix it?</h4><br>
 												<a href="https://medium.com/@iamashwinks/the-real-reason-why-you-hate-your-job-and-how-to-fix-it-7b18cf6f3f93" target="_blank"><button type="button" class="btn btn-primary" style="margin-top: 20px;">Read on Medium</button></a>
@@ -161,7 +171,7 @@
 												<span aria-hidden="true">&times;</span>
 												</button>
 											</div>
-											<div class="modal-body" style="margin-top: 10px; color: black; background-color: #eee;">
+											<div class="modal-body" style="margin-top: 10px; color: black; background-color: #81ecec;">
 												<p>I had this curiosity back in my mind for a long time. The curiosity about why people hate their jobs, why people say ‘Office life sucks’ and why people wait for Friday evenings and live for weekends. Why this is important is that all time along, from childhood where we happen to start learning alphabets to until we get a job, we strive so hard. All the hard work we do is to get a high salary job that supports our families. And when we do get a job, at the end of the day we end up hating it.</p>
 												<p>I started to look for answers for this and I luckily happened to had an interesting and amazing conversation with one of my mentors Vidyadhar(Vidyadhar Sharma). The conversation goes along like this:</p>
 												<p>Me: What are your thoughts on this?</p>
@@ -196,6 +206,17 @@
 					<div class="col-md-2"></div>
 				</div>
 			</div>
+			<h1 style="margin-top: 10px;">Contact Me</h1>
+			<div class="line"></div>
+			<h1 style="margin-top: 40px; margin-bottom:50px; display: flex; justify-content: center; align-items: center;">
+			<a href="https://github.com/iamashwinks" target="_blank"><i class="fa fa-github" style="padding-right: 30px; font-size:100px; color: #81ecec; padding:0 25px;"></i></a>
+			<a href="https://www.linkedin.com/in/iamashwinks/" target="_blank"><i class="fa fa-linkedin" style="padding-right: 30px;font-size:100px; color: #81ecec; padding:0 25px;"></i></a>
+			<!-- <a href="https://angel.co/iamashwinks" target="_blank"><i class="fa fa-angellist" style="padding-right: 30px;font-size:100px; color: #81ecec"></i></a> -->
+			<a href="https://twitter.com/iamashwinks" target="_blank"><i class="fa fa-twitter" style="padding-right: 30px;font-size:100px; color: #81ecec; padding:0 25px;"></i></a>
+			<!-- <a href="https://www.facebook.com/ashwin.iyengar.12" target="_blank"><i class="fa fa-facebook" style="padding-right: 30px;font-size:100px; color: #81ecec;"></i></a>
+			<a href="https://www.instagram.com/iamashwinks/" target="_blank"><i class="fa fa-instagram" style="padding-right: 30px;font-size:100px; color: #81ecec;"></i></a> -->
+			<a href="mailto:ashwin.k.sri@gmail.com" target="_blank"><i class="fa fa-envelope-o" style="padding-right: 30px;font-size:100px; color: #81ecec; padding:0 25px;"></i></a>
+			</h1>
 		</div>
 	</body>
 </html>
