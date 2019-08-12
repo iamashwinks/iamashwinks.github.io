@@ -1,91 +1,211 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<title>Ashwin K S | UI UX Designer</title>
 		<link rel="icon" type="image/png" href="index.ico">
-		<title>Ashwin K S| Web Developer</title>
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-		<script type="text/javascript" src="typed.js"></script>
-		<style>
-			body {
-				background-image: url("index1.jpg");
-			}
-			
-			.navbar.navbar-expand-lg.navbar-light li a {
-				margin-bottom: 15px;
-				padding: 14px 30px;
-				font-size: 17px;
-				font-weight: 600;
-				color: #aaa;
-			}
-			.navbar.navbar-expand-lg.navbar-light li a:hover {
-				color: white;
-				border-bottom: 3px solid ;
-			}
-			.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
-				color: white;
-			}
-			.banner {
-				height: 80vh;
-				color: #000;
-				display: flex;
-				justify-content: center;
-				align-items: center;
-				flex-direction: column;
-			}
-			.banner .line {
-				width: 100px;
-				height: 3px;
-				background: #aaa;
-				margin: .5em auto;
-				border-radius: 50px;
-				margin-bottom: 30px;
-				background-color: #aaa;
-			}
-			.banner h1 {
-				font-size: 700%;
-				color: white;
-				text-shadow: 8px 8px 10px #000000;
-			}
-		</style>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" href="style.css">
 	</head>
 	<body>
 		<nav class="navbar navbar-expand-lg navbar-light">
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<!-- <a class="navbar-brand" href="#">Navbar</a> -->
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 			</button>
-			<div class="collapse navbar-collapse" id="navbarNav">
-				<ul class="navbar-nav mx-auto">
-					<li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
-					<li class="nav-item"><a class="nav-link" href="work.html">Work</a></li>
-					<li class="nav-item"><a class="nav-link" href="about.html">About Me</a></li>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto raleway">
+					<li class="nav-item active">
+						<a class="nav-link" href="#home">home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#about">about</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#work">work</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contact">contact</a>
+					</li>
 				</ul>
 			</div>
 		</nav>
-		<div class="container banner">
-			<img src="mainprofile.jpg" alt="Ashwin K S" width="20%" style="border-radius: 50%;">
-			<h1>Ashwin K S</h1>
+		<div class="hero" id="home">
+			<div class="hero-left-div flex flex-col">
+				<div class="container">
+					<div class="hero-subheader raleway"><h4>Hello, It's me</h4></div>
+					<div class="hero-header raleway"><h1>Ashwin K S<span>.</span></h1></div>
+					<div class="hero-desc"><p>A <strong>UI UX Designer</strong> based out of Bangalore, India. An entusiastic, self-taught designer who lovers his work & craft and can be very technical when needed. I’m also a Web Developer who has done numerous projects with more than 6 months of experience. <br>Check out my projects, and <strong><a href="">contact me</a></strong> if you want to do something cool together!</p></div>
+					<div class="btn hero-btn">Download Resume</div>
+				</div>
+			</div>
+			<div class="mobile-img-div">
+				<img src="Group@1x_copy3.png" alt="" class="mobile-img">
+			</div>
+		</div>
+		<div class="section2 flex flex-col" id="about">
+			<div class="row">
+				<div class="col-2 col-sm-3 col-md-3"></div>
+				<div class="col-8 col-sm-6 col-md-6">
+					<div class="about-header raleway">About.</div>
+					<div class="about-desc">As a UI UX Designer I help various clients and projects everything from branding, logo creation, wireframing, prototyping, mockups,<br>marketing, dev-handoff, and developing.</div><br><br>
+					<div class="testimonials-header raleway">What They Say..</div>
+					<div class="testimonials-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>Est feugiat tincidunt in pellentesque cursus.<br>Lacus, iaculis morbi tristique egestas ut tristique fringilla.</div>
+					<div class="testimonials-footer">
+						<div class="row">
+							<div class="col-3 col-sm-3 col-md-3">
+								<div class="testimonials-img"><img src="testimonial-img@4x.png" alt=""></div>
+							</div>
+							<div class="col-9 col-sm-9 col-md-9">
+								<div class="testimonials-name">Arthur Murphy</div>
+								<div class="testimonials-job">Front-end Developer</div>
+							</div>
+						</div>
+					</div>
+					<br><br>
+					<div class="email-p"><a href="">Email me</a> if you think you want to hire me or<br>if you think we should be working together on interesting projects.</div>
+				</div>
+				<div class="col-2 col-sm-3 col-md-3"></div>
+			</div>
+		</div>
+		<div class="section3" id="work">
+			<div class="row">
+				<div class="col-6 col-sm-6 col-md-6">
+					<div class="sec3-main flex flex-col">
+						<div class="sec3-header raleway">Bounce App CaseStudy</div>
+						<div class="sec3-desc">A case study and redesign of the Bounce with Metrobikes App.<br>I have gone through the ux process of doing user research, data analysis,<br>ux process, wireframing, prototyping & much more.</div>
+						<div class="btn sec3-btn">View Case Study</div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-6 col-md-6">
+					<img src="bounce3.png" alt="Bounce App" class="bounce-img img-fluid">
+				</div>
+			</div>
+		</div>
+		<div class="section4">
+			<div class="row">
+				<div class="col-6 col-sm-6 col-md-6">
+					<div class="sec4-main flex flex-col">
+						<div class="sec4-header raleway">MentorFix Web Design</div>
+						<div class="sec4-desc">An online platform where people can find mentors. I executed<br>the entire design process from interviewing, logo design, branding,<br>design systems, wireframing, prototyping & much more.</div>
+						<div class="btn sec4-btn">View Design</div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-6 col-md-6">
+					<img src="mfx@1x.png" alt="MentorFix Website" class="mfx-img img-fluid">
+				</div>
+			</div>
+		</div>
+		<div class="section5">
+			<div class="row">
+				<div class="col-6 col-sm-6 col-md-6">
+					<div class="sec5-main flex flex-col">
+						<div class="sec5-header raleway">My Other Designs</div>
+						<div class="sec5-desc">These are my other designs that I have done in my<br>free time just out of passion. I’ll be doing more such designs &<br> other amazing projects. So, Stay tuned for more.</div>
+						<div class="btn sec5-btn">View Designs</div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-6 col-md-6">
+					<div class="sec5-row1-designs">
+						<div class="row">
+							<div class="col-12 col-sm-6 col-md-6" style="margin-right: -1em;">
+								<img src="calc.png" alt="" class="designs-img img-fluid">
+							</div><br>
+							<div class="col-12 col-sm-6 col-md-6" style="margin-right: -1em;">
+								<img src="signup@3x.png" alt="" class="designs-img img-fluid">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="sec5-row2-designs">
+				<div class="row">
+					<div class="col-6 col-sm-3 col-md-3" style="margin-right: -1em;">
+						<img src="Icon.png" alt="" class="designs-img img-fluid">
+					</div>
+					<div class="col-6 col-sm-3 col-md-3" style="margin-right: -1em;">
+						<img src="user_profile_copy.png" alt="" class="designs-img img-fluid">
+					</div>
+					<div class="col-6 col-sm-3 col-md-3" style="margin-right: -1em;">
+						<img src="social_share.png" alt="" class="designs-img img-fluid">
+					</div>
+					<div class="col-6 col-sm-3 col-md-3" style="margin-right: -1em;">
+						<img src="chat_app_copy.png" alt="" class="designs-img img-fluid">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section6">
+			<div class="sec6-header raleway">My Methodology.</div>
+			<div class="container">
+				<div class="row" style="margin-left: -2em;">
+					<div class="col-6 col-sm-4 col-md-4 flex">
+						<div class="card">
+							<img src="discover.svg" alt="" class="discover-svg svgs">
+							<div class="sec6-card-number raleway">01</div>
+							<div class="sec6-card-header raleway">Discover</div>
+							<div class="sec6-card-desc">I start to discover about users & business needs, brainstorim &  finding out whether the product is a good fit.</div>
+						</div>
+					</div>
+					<div class="col-6 col-sm-4 col-md-4 flex">
+						<div class="card">
+							<img src="research.svg" alt="" class="research-svg svgs">
+							<div class="sec6-card-number raleway">02</div>
+							<div class="sec6-card-header raleway">Research</div>
+							<div class="sec6-card-desc">I findout target audience, user & business goals, & research on market about the problem that we are trying to solve.</div>
+						</div>
+					</div>
+					<div class="col-6 col-sm-4 col-md-4 flex">
+						<div class="card">
+							<img src="sketch.svg" alt="" class="sketch-svg svgs">
+							<div class="sec6-card-number raleway">03</div>
+							<div class="sec6-card-header raleway">Sketch</div>
+							<div class="sec6-card-desc">I brainstorm all ideas on paper and create fast wireframes. Later using different tools, I convert them to hi-fidelity designs.</div>
+						</div>
+					</div>
+					
+					<div class="col-6 col-sm-4 col-md-4 flex">
+						<div class="card">
+							<img src="prototype.svg" alt="" class="prototype-svg svgs">
+							<div class="sec6-card-number raleway">04</div>
+							<div class="sec6-card-header raleway">Prototype</div>
+							<div class="sec6-card-desc">I take my hi-fidelity designs to prototyping mode using various tools and make it interactive so it can be tested.</div>
+						</div>
+					</div>
+					<div class="col-6 col-sm-4 col-md-4 flex">
+						<div class="card">
+							<img src="test.svg" alt="" class="test-svg svgs">
+							<div class="sec6-card-number raleway">05</div>
+							<div class="sec6-card-header raleway">Test</div>
+							<div class="sec6-card-desc">I get feedback from clients & users about my design & prototype. I iterate my design based on the  feedback.</div>
+						</div>
+					</div>
+					<div class="col-6 col-sm-4 col-md-4 flex">
+						<div class="card">
+							<img src="deploy.svg" alt="" class="deploy-svg svgs">
+							<div class="sec6-card-number raleway">06</div>
+							<div class="sec6-card-header raleway">Deploy</div>
+							<div class="sec6-card-desc">Once the prototype is validated, I take my designs to dev mode. I code them using HTML, CSS & JS and deploy them.</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section7" id="contact">
+			<div class="sec7-header raleway">Stay In Touch.</div>
 			<div class="line"></div>
-			<h2 class="type" style="color: #fff;"></h2>
+			<a href=""><img src="behance.svg" alt="behance" class="contact-logos behance-logo"></a>
+			<a href=""><img src="instagram.svg" alt="instagram" class="contact-logos ig-logo"></a>
+			<a href=""><img src="dribbble.svg" alt="dribbble" class="contact-logos dribbb`le-logo"></a>
+			<a href=""><img src="linkedin.svg" alt="linkedin" class="contact-logos linkedin-logo"></a>
+			<a href=""><img src="email.svg" alt="mail" class="contact-logos email-logo"></a>
+			<div class="sec7-subheader">DESIGNED & DEVELOPED FROM SCRATCH BY ME .)</div>
 		</div>
-		<div>
-			<script type="text/javascript">
-					var typed = new Typed(".type", {
-				strings: ["Hello World!",
-				"I am a Developer",
-				"I am a Coder",
-				"I am a Learner",
-				"I am a Reader"],
-				typeSpeed: 50,
-				backSpeed: 50,
-				loop: true,
-				showCursor: false
-				});
-			</script>
-		</div>
-	</body>
+	</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
 </html>
