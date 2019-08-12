@@ -731,7 +731,7 @@ background: linear-gradient(180deg, #D7D8D2 0%, #DBDAD5 50%, #D7D6D1 100%)
 	}
 
 	.hero-left-div {
-		margin: 0em 4em;
+		margin: 0em 2em;
 	}
 
 	.mobile-img-div {
@@ -840,7 +840,7 @@ background: linear-gradient(180deg, #D7D8D2 0%, #DBDAD5 50%, #D7D6D1 100%)
 	.sec5-row1-designs {
 		margin-left: 2em;
 	    margin-top: -4.5em;
-	    margin-bottom: -9em;
+	    margin-bottom: -8.5em;
 	}
 
 	.sec5-row2-designs {
@@ -857,7 +857,7 @@ background: linear-gradient(180deg, #D7D8D2 0%, #DBDAD5 50%, #D7D6D1 100%)
 	}
 
 	.section6 {
-		height: 225vh;
+		height: 235vh;
 	}
 
 	.sec6-header, .sec7-header {
