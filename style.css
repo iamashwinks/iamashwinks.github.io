@@ -879,7 +879,7 @@ background: linear-gradient(180deg, #D7D8D2 0%, #DBDAD5 50%, #D7D6D1 100%)
 	}
 
 	.section6 {
-		height: 235vh;
+		height: 250vh;
 	}
 
 	.sec6-header, .sec7-header {
@@ -924,6 +924,10 @@ background: linear-gradient(180deg, #D7D8D2 0%, #DBDAD5 50%, #D7D6D1 100%)
 
 	.contact-logos {
 		width: 35px;
+	}
+
+	.section7 {
+		height: 52vh;
 	}
 
 	.sec7-header {
