@@ -398,14 +398,14 @@ background: linear-gradient(180deg, #D7D8D2 0%, #DBDAD5 50%, #D7D6D1 100%)
 
 .sketch-svg {
 	width: 150px;
-	margin-top: 30px;
-	margin-bottom: 28px
+	margin-top: 5px;
+	margin-bottom: 10px;
 }
 
 .prototype-svg {
-	width: 150px;
-	margin-top: 10px;
-	margin-bottom: 20px;
+	width: 180px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
 .test-svg {
